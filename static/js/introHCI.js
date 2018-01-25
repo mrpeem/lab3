@@ -2,22 +2,22 @@
 
 // Call this function when the page loads (the "ready" event)
 $(document).ready(function() {
-	initializePage();
+  initializePage();
 })
 
 /*
  * Function that is called when the document is ready.
  */
 function initializePage() {
-	$("#testjs").click(function(e) {
-		$('.jumbotron h1').text("Javascript has taken control");
+  $("#testjs").click(function(e) {
+    $('.jumbotron h1').text("Javascript has taken control");
     $(".jumbotron p").addClass("active");
-	});
+  });
 
   $(".project").click(projectClick);
 
-	// Add any additional listeners here
-	// example: $("#div-id").click(functionToCall);
+  // Add any additional listeners here
+  // example: $("#div-id").click(functionToCall);
 }
 
 function projectClick(e) { 
