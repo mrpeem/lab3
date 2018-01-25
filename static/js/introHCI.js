@@ -10,7 +10,8 @@ $(document).ready(function() {
  */
 function initializePage() {
 	$("#testjs").click(function(e) {
-		$('.jumbotron h1').text("Javascript is connected");
+		$('.jumbotron h1').text("Javascript has taken control");
+    $(".jumbotron p").addClass("active");
 	});
 
   $(".project").click(projectClick);
